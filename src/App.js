@@ -1,9 +1,13 @@
+import React from 'react';
 import './App.css';
+import Mainapp from './Mainapp.js';
 
 function App() {
   return (
-    <div className="title">
-      <p>waqass</p>
+    <div className="mainDiv">
+      <div className = "main">
+        <Mainapp />
+      </div>
     </div>
   );
 }

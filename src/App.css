@@ -1,3 +1,93 @@
-.title{
-  background-color: red;
+.mainDiv{
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  background-color: #e2e5de;
+  padding: 10px 70px 30px 70px;
+  margin: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.expense-title{
+  text-align: center;
+}
+
+.balance{
+  display: flex;
+   /* center, flex-start, flex-end, space-around, space-between */
+  flex-direction: row;
+}
+
+.balance-title{
+  font-weight: bold;
+}
+
+.balance-class{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.income-expense{
+    display: flex;
+    justify-content: space-around; /* center, flex-start, flex-end, space-around, space-between */
+    flex-direction: row;
+    background-color: white;
+}
+
+.income-expense div{
+    border-radius: 60%;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.product{
+  background-color: white;
+}
+
+.product-cost{
+  float: right;
+}
+
+.product-sec{
+  padding: 10px;
+  margin: 10px;
+}
+
+.transaction hr{
+  margin-top: -10px;
+}
+
+.text h3{
+  margin: 0;
+}
+
+.amount-head{
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.cost{
+  margin-top: 10px;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #90caf9;
+  margin-top: 10px;
+  padding: 8px 3px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-box{
+  width: 100%;
 }
